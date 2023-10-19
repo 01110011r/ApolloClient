@@ -6,10 +6,10 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 
 
-
+// ts/dars_5
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4001/',
+  uri: 'http://localhost:7000/',
   cache: new InMemoryCache(),
 });
 
